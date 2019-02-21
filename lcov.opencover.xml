@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="46" visitedSequencePoints="36" numBranchPoints="46" visitedBranchPoints="36" sequenceCoverage="0.783" branchCoverage="0.783" maxCyclomaticComplexity="18" minCyclomaticComplexity="18" visitedClasses="4" numClasses="4" visitedMethods="9" numMethods="9" />
+  <Modules>
+    <Module hash="DD2C44D7-0189-429B-B80F-E7AEA6F4F71F">
+      <ModulePath>CSharpChallenge.dll</ModulePath>
+      <ModuleTime>2019-02-20T09:16:32</ModuleTime>
+      <ModuleName>CSharpChallenge</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Temp\dotnet\challenge\CSharpChallenge\MathHelper.cs" />
+        <File uid="2" fullPath="C:\Temp\dotnet\challenge\CSharpChallenge\Person.cs" />
+        <File uid="3" fullPath="C:\Temp\dotnet\challenge\CSharpChallenge\StringHelper.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CSharpChallenge.Circle</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Double CSharpChallenge.Circle::get_Radio()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" upsid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CSharpChallenge.MathHelper</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void CSharpChallenge.MathHelper::Calculate(CSharpChallenge.Shape,System.Double&amp;,System.Double&amp;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="20" ordinal="3" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="21" ordinal="4" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="26" ordinal="9" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" upsid="20" ordinal="0" path="0" offset="34" offsetend="36" sl="20" fileid="1" />
+                <BranchPoint vc="1" upsid="20" ordinal="1" path="1" offset="34" offsetend="90" sl="20" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="10" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="26" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="22" visitedSequencePoints="16" numBranchPoints="6" visitedBranchPoints="2" sequenceCoverage="0.727" branchCoverage="0.333" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>CSharpChallenge.Person</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String CSharpChallenge.Person::get_FirstName()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="14" ec="1" el="14" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String CSharpChallenge.Person::get_LastName()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" upsid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String CSharpChallenge.Person::get_Company()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" upsid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="22" ec="1" el="22" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0.5" branchCoverage="0.333" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="12" visitedSequencePoints="6" numBranchPoints="6" visitedBranchPoints="2" sequenceCoverage="0.5" branchCoverage="0.333" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String CSharpChallenge.Person::GetFullName()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="45" ordinal="4" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="46" ordinal="5" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="49" ordinal="6" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="52" ordinal="7" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="53" ordinal="8" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="54" ordinal="9" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" upsid="57" ordinal="10" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="58" ordinal="11" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" upsid="42" ordinal="0" path="0" offset="12" offsetend="14" sl="42" fileid="2" />
+                <BranchPoint vc="0" upsid="44" ordinal="2" path="0" offset="26" offsetend="28" sl="44" fileid="2" />
+                <BranchPoint vc="0" upsid="44" ordinal="3" path="1" offset="26" offsetend="33" sl="44" fileid="2" />
+                <BranchPoint vc="1" upsid="42" ordinal="1" path="1" offset="12" offsetend="58" sl="42" fileid="2" />
+                <BranchPoint vc="1" upsid="52" ordinal="4" path="0" offset="69" offsetend="71" sl="52" fileid="2" />
+                <BranchPoint vc="0" upsid="52" ordinal="5" path="1" offset="69" offsetend="97" sl="52" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="6" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="41" ec="1" el="58" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void CSharpChallenge.Person::.ctor(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="28" ec="1" el="31" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void CSharpChallenge.Person::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="36" ordinal="0" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="37" ordinal="1" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" upsid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="36" ec="1" el="39" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="0.692" branchCoverage="0.5" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CSharpChallenge.StringHelper</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0.692" branchCoverage="0.5" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="13" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="0.692" branchCoverage="0.5" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean CSharpChallenge.StringHelper::TryParsePercentage(System.String,System.Double&amp;)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="23" ordinal="5" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="24" ordinal="6" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="26" ordinal="7" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="27" ordinal="8" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" upsid="28" ordinal="9" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="31" ordinal="10" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="32" ordinal="11" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" upsid="33" ordinal="12" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" upsid="18" ordinal="0" path="0" offset="18" offsetend="20" sl="18" fileid="3" />
+                <BranchPoint vc="1" upsid="18" ordinal="1" path="1" offset="18" offsetend="25" sl="18" fileid="3" />
+                <BranchPoint vc="0" upsid="26" ordinal="2" path="0" offset="66" offsetend="68" sl="26" fileid="3" />
+                <BranchPoint vc="1" upsid="26" ordinal="3" path="1" offset="66" offsetend="73" sl="26" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="9" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="33" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
