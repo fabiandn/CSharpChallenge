@@ -18,6 +18,10 @@ dotnet restore
 dotnet build
 ```
 
+```shell
+dotnet add package coverlet.msbuild
+```
+
 ## Visual Studio Code Extensions ##
 
 * [.Net Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer)
