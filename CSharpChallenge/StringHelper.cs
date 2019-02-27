@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 
 namespace CSharpChallenge
 {
@@ -20,16 +21,13 @@ namespace CSharpChallenge
                 return false;
             }
 
-            value = value.Replace("%", "");
-            var result = 0D;
-
-            if (!double.TryParse(value, out result))
-            {
-                return false;
+            var match = Regex.Match(value, @"(?<Number>\d+.\d+)\%");
+            if(match.Success && double.TryParse(match.Groups["Number"].Value, out double result)) {
+                percentage = result/100D;
+                return true;
             }
-
-            percentage = result/100D;
-            return true;
+            
+            return false;
         }
     }
 }

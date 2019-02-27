@@ -1,23 +1,14 @@
 SF:C:\Temp\dotnet\challenge\CSharpChallenge\MathHelper.cs
 FN:10,System.Double CSharpChallenge.Circle::get_Radio()
-FNDA:2,System.Double CSharpChallenge.Circle::get_Radio()
-DA:11,2
-FN:15,System.Void CSharpChallenge.MathHelper::Calculate(CSharpChallenge.Shape,System.Double&,System.Double&)
-FNDA:1,System.Void CSharpChallenge.MathHelper::Calculate(CSharpChallenge.Shape,System.Double&,System.Double&)
-DA:16,1
-DA:17,1
-DA:18,1
-DA:20,1
-DA:21,1
-DA:22,1
-DA:23,1
-DA:24,1
-DA:25,1
-DA:26,1
-BRDA:20,34,0,1
-BRDA:20,34,1,1
-LF:11
-LH:11
+FNDA:3,System.Double CSharpChallenge.Circle::get_Radio()
+DA:11,3
+FN:16,System.ValueTuple`2<System.Double,System.Double> CSharpChallenge.MathHelper::Calculate(CSharpChallenge.Shape)
+FNDA:2,System.ValueTuple`2<System.Double,System.Double> CSharpChallenge.MathHelper::Calculate(CSharpChallenge.Shape)
+DA:17,2
+BRDA:17,8,0,1
+BRDA:17,8,1,1
+LF:2
+LH:2
 BRF:2
 BRH:2
 FNF:2
@@ -25,76 +16,67 @@ FNH:2
 end_of_record
 SF:C:\Temp\dotnet\challenge\CSharpChallenge\Person.cs
 FN:13,System.String CSharpChallenge.Person::get_FirstName()
-FNDA:3,System.String CSharpChallenge.Person::get_FirstName()
-DA:14,3
+FNDA:10,System.String CSharpChallenge.Person::get_FirstName()
+DA:14,10
 FN:19,System.String CSharpChallenge.Person::get_LastName()
-FNDA:2,System.String CSharpChallenge.Person::get_LastName()
-DA:20,2
+FNDA:10,System.String CSharpChallenge.Person::get_LastName()
+DA:20,10
 FN:21,System.String CSharpChallenge.Person::get_Company()
-FNDA:2,System.String CSharpChallenge.Person::get_Company()
-DA:22,2
-FN:40,System.String CSharpChallenge.Person::GetFullName()
-FNDA:1,System.String CSharpChallenge.Person::GetFullName()
-DA:41,1
-DA:42,1
-DA:43,0
-DA:44,0
-DA:45,0
-DA:46,0
-DA:49,0
-DA:52,1
-DA:53,1
-DA:54,1
-DA:57,0
-DA:58,1
-BRDA:42,12,0,0
-BRDA:44,26,0,0
-BRDA:44,26,1,0
-BRDA:42,12,1,1
-BRDA:52,69,0,1
-BRDA:52,69,1,0
+FNDA:8,System.String CSharpChallenge.Person::get_Company()
+DA:22,8
+FN:36,System.String CSharpChallenge.Person::FormatLastName()
+FNDA:4,System.String CSharpChallenge.Person::FormatLastName()
+DA:37,4
+BRDA:37,6,0,2
+BRDA:37,14,0,1
+BRDA:37,14,1,1
+BRDA:37,6,1,2
+FN:38,System.String CSharpChallenge.Person::GetFullName()
+FNDA:4,System.String CSharpChallenge.Person::GetFullName()
+DA:39,4
+BRDA:39,7,0,2
+BRDA:39,7,1,4
+BRDA:39,33,0,2
+BRDA:39,33,1,4
 FN:27,System.Void CSharpChallenge.Person::.ctor(System.String)
-FNDA:1,System.Void CSharpChallenge.Person::.ctor(System.String)
-DA:28,1
-DA:29,1
-DA:30,1
-DA:31,1
-FN:35,System.Void CSharpChallenge.Person::.ctor()
-FNDA:1,System.Void CSharpChallenge.Person::.ctor()
-DA:36,1
-DA:37,1
-DA:39,1
-LF:22
-LH:16
-BRF:6
-BRH:2
-FNF:6
-FNH:6
+FNDA:8,System.Void CSharpChallenge.Person::.ctor(System.String)
+DA:28,8
+FN:32,System.Void CSharpChallenge.Person::.ctor()
+FNDA:2,System.Void CSharpChallenge.Person::.ctor()
+DA:33,2
+DA:34,2
+DA:35,2
+LF:9
+LH:9
+BRF:8
+BRH:8
+FNF:7
+FNH:7
 end_of_record
 SF:C:\Temp\dotnet\challenge\CSharpChallenge\StringHelper.cs
-FN:14,System.Boolean CSharpChallenge.StringHelper::TryParsePercentage(System.String,System.Double&)
-FNDA:1,System.Boolean CSharpChallenge.StringHelper::TryParsePercentage(System.String,System.Double&)
-DA:15,1
-DA:16,1
-DA:18,1
-DA:19,0
-DA:20,0
-DA:23,1
-DA:24,1
+FN:15,System.Boolean CSharpChallenge.StringHelper::TryParsePercentage(System.String,System.Double&)
+FNDA:3,System.Boolean CSharpChallenge.StringHelper::TryParsePercentage(System.String,System.Double&)
+DA:16,3
+DA:17,3
+DA:19,3
+DA:20,1
+DA:21,1
+DA:24,2
+DA:25,3
 DA:26,1
-DA:27,0
-DA:28,0
-DA:31,1
-DA:32,1
-DA:33,1
-BRDA:18,18,0,0
-BRDA:18,18,1,1
-BRDA:26,66,0,0
-BRDA:26,66,1,1
-LF:13
-LH:9
-BRF:4
-BRH:2
+DA:27,1
+DA:30,1
+DA:31,3
+BRDA:19,18,0,1
+BRDA:19,18,1,2
+BRDA:25,43,0,1
+BRDA:25,43,1,1
+BRDA:25,80,0,1
+BRDA:25,80,1,1
+LF:11
+LH:11
+BRF:6
+BRH:6
 FNF:1
 FNH:1
 end_of_record

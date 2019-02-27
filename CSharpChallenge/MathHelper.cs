@@ -1,4 +1,4 @@
-using System;
+using static System.Math;
 
 namespace CSharpChallenge
 {
@@ -13,16 +13,7 @@ namespace CSharpChallenge
 
     public class MathHelper
     {
-        public static void Calculate(Shape shape, out double area, out double length){
-            area = 0;
-            length = 0;
-
-            if (shape is Circle)
-            {
-                var radio = ((Circle)shape).Radio;
-                area = Math.PI * Math.Pow(radio, 2);
-                length = 2 * Math.PI * radio;
-            }
-        }
+        public static (double Area, double Length) Calculate(Shape shape) => 
+            shape is Circle circle ? (PI * Pow(circle.Radio, 2), 2 * PI * circle.Radio): (0, 0);
     }
 }

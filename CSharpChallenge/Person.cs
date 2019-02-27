@@ -25,36 +25,17 @@ namespace CSharpChallenge
         /// 
         /// </summary>
         /// <param name="company"></param>
-        public Person(string company)
-        {
-            this.Company = company;            
-        }
+        public Person(string company) => this.Company = company;
 
         /// <summary>
         /// 
         /// </summary>
         public Person() : this("Endava")
         {
-            
         }
 
-        public string GetFullName() {
-            if (this.FirstName == null)
-            {
-                if (this.LastName == null)
-                {
-                    return null;
-                }
+        public string FormatLastName() => this.LastName == null ? string.Empty: this.FirstName == null ? this.LastName : $" {this.LastName}";
 
-                return this.LastName + ", " + this.Company;
-            }
-
-            if (this.LastName == null)
-            {
-                return this.FirstName + ", " + this.Company;
-            }
-                
-            return this.FirstName + " " + this.LastName + ", " + this.Company;
-        }
+        public string GetFullName() => $"{this.FirstName ?? string.Empty}{this.FormatLastName()}, {this.Company ?? "Endava"}";
     }
 }
