@@ -21,7 +21,7 @@ namespace CSharpChallenge
                 return false;
             }
 
-            var match = Regex.Match(value, @"(?<Number>\d+.\d+)\%");
+            var match = Regex.Match(value, @"(?<Number>\d+\.\d+)\%");
             if(match.Success && double.TryParse(match.Groups["Number"].Value, out double result)) {
                 percentage = result/100D;
                 return true;

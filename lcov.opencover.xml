@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="22" visitedSequencePoints="22" numBranchPoints="22" visitedBranchPoints="22" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="22" minCyclomaticComplexity="22" visitedClasses="4" numClasses="4" visitedMethods="10" numMethods="10" />
   <Modules>
-    <Module hash="3F55A9F1-640B-4815-AA72-3EA939713C74">
+    <Module hash="1AACF505-DADF-4C48-A6F2-160FADB9BEDC">
       <ModulePath>CSharpChallenge.dll</ModulePath>
-      <ModuleTime>2019-02-22T08:52:10</ModuleTime>
+      <ModuleTime>2019-02-27T08:22:03</ModuleTime>
       <ModuleName>CSharpChallenge</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Temp\dotnet\challenge\CSharpChallenge\MathHelper.cs" />
